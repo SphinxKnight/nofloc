@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "nofloc",
+  "description": "This WebExtension disallows FLoC by adding the proper HTTP Header.",
+  "version": "0.1",
+  "background":{
+    "scripts":["optout.js"]
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ]
+}
